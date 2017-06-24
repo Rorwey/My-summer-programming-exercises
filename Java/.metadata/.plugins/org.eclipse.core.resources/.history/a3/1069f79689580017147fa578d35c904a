@@ -1,0 +1,17 @@
+package BasicDemo;
+
+import BasicDemo.FreshJuice.FreshJuiceSize;
+
+/**这是一个枚举的事例
+ * */
+public class FreshJuice {
+	enum FreshJuiceSize{Small,Medium,Large}
+	FreshJuiceSize size;
+}
+
+public class FreshJuiceTest{
+	public static void main(String [ ]args){
+		FreshJuice juice = new FreshJuice();
+		juice.size = FreshJuiceSize.FreshJuiceSize.Medium;
+	}
+}
