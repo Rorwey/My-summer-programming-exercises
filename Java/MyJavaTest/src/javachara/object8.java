@@ -1,0 +1,30 @@
+package javachara;
+
+/**
+ * 这是一段复杂的关于有返回值的调用的事例
+ */
+public class object8 {
+	public int sum(int x, int y, int z) {
+		// 相加
+		int sum;
+		return sum = x + y + z;
+	}
+
+	public int aver(int x, int y, int z) {
+		// 求平均
+		int aver;
+		return aver = (x + y + z) / 3;
+	}
+
+	void print() {
+		// 输出的方法
+		System.out.println("这位同学的成绩为：");
+	}
+
+	public static void main(String[] args) {
+		object8 num = new object8();
+		num.print();
+		System.out.println(num.sum(90, 80, 70));
+		System.out.println(num.aver(90, 80, 70));
+	}
+}
